@@ -116,23 +116,23 @@
 						<p>Afin de nous <strong>contacter</strong> autrement ! Des petits réseaux sociaux <strong>sauvages</strong> où vous êtes les <strong>bienvenue</strong>.</p>
 						<div class="row" id="non-estetic-form" style="display: flex; align-items: center; justify-content: center; flex-direction: row; margin: 20px;">
 							<div style="max-width: 800px; padding-left: 0;">
-								<section>
-										<form method="post" enctype="text/plain" action="fraigneau86@yahoo.fr">
-										<div class="row gtr-50">
-											<div>
-												<input name="name" placeholder="Name" type="text" />
-											</div>
-											<div>
-												<input name="email" placeholder="Email" type="text" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message"></textarea>
-											</div>
-											<div class="col-12">
-												<a type="submit" value=envoyer class="form-button-submit button icon fa-envelope">Envoie ton Message</a>
-											</div>
-										</div>
-									</form>
+								<section>	
+                                    <form method="POST" action="https://formspree.io/fraigneau86@yahoo.fr">
+                                        <div class="row gtr-50">
+                                            <div>
+                                                <input type="text" name="Nom" placeholder="Nom">
+                                            </div>
+                                            <div>
+                                                <input type="text" name="email" placeholder="Email">
+                                            </div>
+                                            <div class="col-12">
+                                                <textarea name="message" placeholder="Ton Message"></textarea>
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="form-button-submit button icon fa-envelope" type="submit">Envoie</button>
+                                            </div>
+                                        </div>
+                                    </form>
 								</section>
 							</div>
 							<div style='margin-left: 10%'>
@@ -166,7 +166,7 @@
 					</div>
 				</section>
 
-		</div>
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
